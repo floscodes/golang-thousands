@@ -7,7 +7,7 @@ func Separate(n string, lang string) string
 
 
 Examples:
-
+```
 n := 5000.61
 
 N:=fmt.Sprintf("%f", n) //Convert float to string
@@ -20,5 +20,4 @@ fmt.Println("Die Nummer ist: " + thousands.Separate(N, "de") + "(German)")
 
 //Die Nummer ist: 5.000,61 (German)
 
-
-
+```
