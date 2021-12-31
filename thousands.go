@@ -21,7 +21,7 @@ func Separate(N interface{}, lang ...string) (string, error) {
 
 	}
 
-	n := fmt.Sprintf("%v", N)
+	n := fmt.Sprintf("%.2f", N)
 
 	if len(lang) < 1 {
 		lang[0] = "en"
