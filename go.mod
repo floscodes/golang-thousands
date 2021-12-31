@@ -1,3 +1,3 @@
-module github.com/xviaver/golang-thousands
+module github.com/floscodes/golang-thousands
 
 go 1.16
